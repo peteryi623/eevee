@@ -39,3 +39,14 @@ Control z - gets out of VIM
 	   Get out of Vim:  Use ":qa!<Enter>" (careful, all changes are lost!).
 	Jump to a subject:  Position the cursor on a tag (e.g. |bars|) and hit CTRL-].
 	
+GITHUB
+git init - set up resposiotory or general whatevs
+git remote add origin "LINK" - connects repositories on github
+
+git status - status
+git add "FILE NAME" - adds specific file to the working directory([space] . is every file on directory)
+git commit -m "comment" - commits the file and adds a comment
+git clone - connects from another computer to the repository to get files
+git push - pushes all the commitments and send it to git repository
+git log - shows past commitments and who edited it
+
