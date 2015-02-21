@@ -1,0 +1,41 @@
+TERMINAL
+pwd - print working directory
+ls - list files in current directory
+cd - change directory (enters a file)
+	cd .. - goes back from current directory
+	cd name/name  - skip thinga-ma-bobs
+	cd ~ - goes back to home directory
+clear - clears the shell/terminal
+cp - copies file
+	cp myfile yourfile - copies myfile to yourfile
+mv - moves file
+	mv myfile yourfile - renames myfile to yourfile 
+mkdir - make directory (folder)
+rm - remove or delete a file
+  rm \r - deletes recursively so deletes everything in the folder
+ssh - secure shell (remote access)
+touch - creates a file (with name and extensions)
+subl (name.extension) - opens up file name with sublime
+(Control D) - logs out of the SSH
+
+
+COMPILING AND RUNNING C FILES
+After writing the program, compile it by writing in terminal
+gcc hello.c -o hello
+gcc is the command that actually compiles it.
+-o hello just names the actual compiled file.
+Then run the compiled file by writing
+./hello
+./hello just runs the compiled file that is named hello
+
+
+VIM
+Move around:  Use the cursor keys, or "h" to go left, "j" to go down, "k" to go up, "l" to go right.
+When i is pressed, VIM is on insert mode, and you can edit your file.
+When in insert mode, press esc and write : to go into command mode.
+Control z - gets out of VIM
+	VIM Commands
+	Close this window:  Use ":q<Enter>".
+	   Get out of Vim:  Use ":qa!<Enter>" (careful, all changes are lost!).
+	Jump to a subject:  Position the cursor on a tag (e.g. |bars|) and hit CTRL-].
+	
